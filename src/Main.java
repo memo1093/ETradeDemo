@@ -16,19 +16,19 @@ public class Main {
 		User user4 = new User (3,"Mehmet","Akyer","mehmet006gmail.  com","159357456"); 
 		User user5 = new User (3,"Mehmet","Akyer","mehmet006@gmail.com","159  ");
 		
-		userService.signIn(user1);//Doðru girdi
+		userService.signIn(user1);//Dogru girdi
 		System.out.println("-------------------------------------------------------------");
 		userService.signIn(user2);//Mevcut hesap
 		System.out.println("-------------------------------------------------------------");
-		userService.signIn(user3);//Ad-Soyad kontrolü
+		userService.signIn(user3);//Ad-Soyad kontrolÃ¼
 		System.out.println("-------------------------------------------------------------");
-		userService.signIn(user4);//yanlýþ eposta giriþi
+		userService.signIn(user4);//yanlis eposta girisi
 		System.out.println("-------------------------------------------------------------");
-		userService.signIn(user5); // yanlýþ parola giriþi
+		userService.signIn(user5); // yanlis parola girisi
 		System.out.println("-------------------------------------------------------------");
-		userService.logIn("mehmetakyer006@gmail.com","159357456");//doðru þifre
+		userService.logIn("mehmetakyer006@gmail.com","159357456");//dogru sifre
 		System.out.println("-------------------------------------------------------------");
-		userService.logIn("mehmetakyer006@gmail.com","15935745");//yanlýþ þifre
+		userService.logIn("mehmetakyer006@gmail.com","15935745");//yanliÃ¾ sifre
 		
 		
 
